@@ -1,0 +1,16 @@
+!#Schema.xml – (This is used by Solr to index specified fields)
+<field name="SOPInstanceUID" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+<field name="PatientID" type="string" indexed="true" stored="true" multiValued="false" /> 
+<field name="StudyDescription" type="string" indexed="true" stored="true"/>
+<field name="PatientName" type="string" indexed="true" stored="true" />
+<field name="DicomUrl" type="string" stored="true"/>
+<field name="ImageType" type="string" indexed="true" stored="true"/>
+<field name="InstanceCreationDate" type="string" indexed="true" stored="true"/>
+<field name="InstanceCreationTime" type="string" indexed="true" stored="true"/>
+<field name="StudyDate" type="string" indexed="true" stored="true"/>
+<field name="ContentDate" type="string" indexed="true" stored="true"/>
+<field name="DerivationDescription" type="string" indexed="true" stored="true"/>
+<field name="ProtocolName" type="string" indexed="true" stored="true"/>
+And mention the unique key along with this
+<uniqueKey>SOPInstanceUID</uniqueKey> 
+(Remove any previously existing unique key tag and replace with this tag)

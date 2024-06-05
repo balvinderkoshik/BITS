@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<file-format>
+<meta-header xfer="1.2.840.10008.1.2.1" name="Little Endian Explicit">
+<element tag="0002,0000" vr="UL" vm="1" len="4" name="FileMetaInformationGroupLength">216</element>
+<element tag="0002,0001" vr="OB" vm="1" len="2" name="FileMetaInformationVersion" binary="hidden"></element>
+<element tag="0002,0002" vr="UI" vm="1" len="28" name="MediaStorageSOPClassUID">1.2.840.10008.5.1.4.1.1.6.1</element>
+<element tag="0002,0003" vr="UI" vm="1" len="58" name="MediaStorageSOPInstanceUID">1.2.826.0.1.3680043.2.307.111.48712655111.78571.301.34207</element>
+<element tag="0002,0010" vr="UI" vm="1" len="22" name="TransferSyntaxUID">1.2.840.10008.1.2.4.70</element>
+<element tag="0002,0012" vr="UI" vm="1" len="38" name="ImplementationClassUID">1.2.826.0.1.3680043.1.2.100.5.6.2.160</element>
+<element tag="0002,0013" vr="SH" vm="1" len="16" name="ImplementationVersionName">DicomObjects.NET</element>
+</meta-header>
+<data-set xfer="1.2.840.10008.1.2.4.70" name="JPEG Lossless, Non-hierarchical, 1st Order Prediction">
+<element tag="0008,0008" vr="CS" vm="2" len="16" name="ImageType">ORIGINAL\PRIMARY</element>
+<element tag="0008,0012" vr="DA" vm="1" len="8" name="InstanceCreationDate">20091111</element>
+<element tag="0008,0013" vr="TM" vm="1" len="10" name="InstanceCreationTime">164835.000</element>
+<element tag="0008,0014" vr="UI" vm="1" len="30" name="InstanceCreatorUID">1.2.826.0.1.3680043.2.307.111</element>
+<element tag="0008,0016" vr="UI" vm="1" len="28" name="SOPClassUID">1.2.840.10008.5.1.4.1.1.6.1</element>
+<element tag="0008,0018" vr="UI" vm="1" len="58" name="SOPInstanceUID">1.2.826.0.1.3680043.2.307.111.48712655111.78571.301.34207</element>
+<element tag="0008,0020" vr="DA" vm="1" len="8" name="StudyDate">20010215</element>
+<element tag="0008,0023" vr="DA" vm="1" len="8" name="ContentDate">20010215</element>
+<element tag="0008,0030" vr="TM" vm="0" len="0" name="StudyTime"></element>
+<element tag="0008,0033" vr="TM" vm="1" len="10" name="ContentTime">093006.000</element>
+<element tag="0008,0050" vr="SH" vm="0" len="0" name="AccessionNumber"></element>
+<element tag="0008,0060" vr="CS" vm="1" len="2" name="Modality">US</element>
+<element tag="0008,0070" vr="LO" vm="0" len="0" name="Manufacturer"></element>
+<element tag="0008,0090" vr="PN" vm="0" len="0" name="ReferringPhysicianName"></element>
+<element tag="0008,1030" vr="LO" vm="1" len="12" name="StudyDescription">CLR Standard</element>
+<element tag="0008,2111" vr="ST" vm="1" len="66" name="DerivationDescription">From DSR by TomoVision&apos;s DICOMatic 2.0 rev-2e (conversion module)</element>
+<element tag="0008,2124" vr="IS" vm="0" len="0" name="NumberOfStages"></element>
+<element tag="0008,212a" vr="IS" vm="0" len="0" name="NumberOfViewsInStage"></element>
+<element tag="0010,0010" vr="PN" vm="1" len="12" name="PatientName">BURRUS^NOLA</element>
+<element tag="0010,0020" vr="LO" vm="1" len="6" name="PatientID">655111</element>
+<element tag="0010,0030" vr="DA" vm="0" len="0" name="PatientBirthDate"></element>
+<element tag="0010,0040" vr="CS" vm="0" len="0" name="PatientSex"></element>
+<element tag="0018,0010" vr="LO" vm="0" len="0" name="ContrastBolusAgent"></element>
+<element tag="0018,1030" vr="LO" vm="1" len="12" name="ProtocolName">CLR Standard</element>
+<element tag="0018,5100" vr="CS" vm="0" len="0" name="PatientPosition"></element>
+<sequence tag="0018,6011" vr="SQ" card="4" len="784" name="SequenceOfUltrasoundRegions">
+………………………………………
+</item>
+</sequence>
+</data-set>
+</file-format>
